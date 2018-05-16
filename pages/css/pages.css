@@ -16,3 +16,28 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+div.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+div.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    color: hsla(193, 58%, 58%, 1);
+    font-family: 'Oswald', sans-serif;
+}
+
+h3.pro {
+    color: #42f462;
+}
+ h3.contra {
+     color: red;
+ }
