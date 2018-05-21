@@ -40,4 +40,54 @@ h3.pro {
 }
  h3.contra {
      color: red;
- }
+}
+
+ul.user {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+li.denis {
+    background: url('../images/Denis.png') no-repeat left center;
+    height: 54px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+li.emiel {
+    background: url('../images/Emiel.png') no-repeat left center;
+    height: 54px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+li.inge {
+    background: url('../images/Inge.png') no-repeat left center;
+    height: 54px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+li.annie {
+    background: url('../images/Annie.png') no-repeat left center;
+    height: 54px;
+    padding-left: 50px;
+    padding-top: 3px;
+}
+
+div.credits {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    font-size: 10pt;
+}
+a.credits:link {
+    text-decoration: none;
+    color: gray;
+}
+a.credits:visited {
+    text-decoration: none;
+    color: gray;
+}
+a.credits:hover {
+    text-decoration: underline;
+}
