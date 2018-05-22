@@ -44,7 +44,7 @@ h3.pro {
 
 ul.user {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     
 }
@@ -58,19 +58,19 @@ li.emiel {
     background: url('../images/Emiel.png') no-repeat left center;
     height: 54px;
     padding-left: 50px;
-    padding-top: 3px;
+    padding-top: 25px;
 }
 li.inge {
     background: url('../images/Inge.png') no-repeat left center;
     height: 54px;
     padding-left: 50px;
-    padding-top: 3px;
+    padding-top: 20px;
 }
 li.annie {
     background: url('../images/Annie.png') no-repeat left center;
     height: 54px;
     padding-left: 50px;
-    padding-top: 3px;
+    padding-top: 10px;
 }
 
 div.credits {
