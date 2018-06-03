@@ -17,6 +17,12 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
+img.logo_intro {
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
 div.tile {
     display: flex;
     flex-direction: column;
@@ -74,11 +80,14 @@ li.annie {
 }
 
 div.credits {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: gray;
     font-size: 10pt;
+    text-align: right;
+    padding-right: 24px;
+    margin-top: 245px;
 }
 a.credits:link {
     text-decoration: none;
@@ -90,4 +99,511 @@ a.credits:visited {
 }
 a.credits:hover {
     text-decoration: underline;
+}
+
+div.body {
+    width: 70%;
+    margin: 0px auto;
+}
+
+h2.DSG_nummer {
+    font-family: Arial;
+}
+
+h2.DSG_titel {
+    font-size: 3em;
+    font-family: Arial;
+    margin: 12px 20px;
+}
+
+div.DSG_onderdeel {
+    display: flex;
+    flex-direction: row;
+}
+
+div.kader_afbeelding {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.logo_kader {
+    width: 400px;
+    background-color: rgb(226, 226, 226);
+    height: 200px;
+    margin: 40px;
+    min-width: 400px;
+}
+
+img.BT_logo {
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+p.onderschrift {
+    margin: -20px auto;
+    margin-bottom: 80px;
+}
+div.kleur-volgorde {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.kader_kleur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.kleur-item {
+    max-width: 400px;
+}
+div.kleur_kader1 {
+    width: 400px;
+    background-color: #d8ece6;
+    height: 200px;
+    margin: 40px;
+}
+div.kleur_kader2 {
+    width: 400px;
+    background-color: #56b7d2;
+    height: 200px;
+    margin: 40px;
+}
+div.kleur_kader3 {
+    width: 400px;
+    background-color: #00c034;
+    height: 200px;
+    margin: 40px;
+}
+div.kleur_kader4 {
+    width: 400px;
+    background-color: #006a63;
+    height: 200px;
+    margin: 40px;
+}
+div.kleur_kader5 {
+    width: 400px;
+    background-color: #656972;
+    height: 200px;
+    margin: 40px;
+}
+p.onderschrift_kleur {
+    margin: -20px auto;
+    background-color: rgb(226, 226, 226);
+    width: 320px;
+    margin-top: -40px;
+    
+}
+p.onderschrift_kleur_end {
+    margin: -20px auto;
+    background-color: rgb(226, 226, 226);
+    width: 280px;
+    margin-top: -40px;
+    padding: 20px;
+    margin-bottom: 80px;
+    
+}
+
+img.kleurcodes {
+    max-width: 70%;
+    max-height: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+div.typo_tekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+div.typo_left {
+    text-align: right;
+    width: 30%;
+}
+div.typo_right {
+    width: 60%;
+}
+
+p.titel1 {
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-size: 126px;
+    color: #006a63;
+    margin-top: 40px;
+}
+p.titel2 {
+    font-family: 'Gill Sans MT';
+    font-size: 117px;
+    color: #000000;
+    margin-top: -10px;
+}
+p.titel3 {
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-size: 66px;
+    color: #000000;
+    margin-top: -20px;
+}
+p.titel4 {
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 66px;
+    color: #006a63;
+    margin-top: 75px;
+}
+p.titel5 {
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 53px;
+    color: #000000;
+    margin-top: 70px;
+}
+p.titel6 {
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    font-size: 53px;
+    color: #000000;
+    margin-top: 70px;
+}
+p.titel7 {
+    font-family: 'Skia';
+    font-style: normal;
+    src: url('ufonts.com_skia.woff') format('woff');
+    font-size: 39px;
+    margin-top: 75px;
+}
+p.ondertitel {
+    font-family: 'Gill Sans MT';
+    font-style: italic;
+    font-size: 38px;
+    color: #797979;
+    margin-top: 70px;
+}
+p.paragraaf {
+    font-family: 'Gill Sans MT';
+    font-size: 35px;
+    color: #000000;
+    margin-top: 40px;
+    line-height: 40px;
+}
+p.knop {
+    font-family: 'Gill Sans MT';
+    font-size: 29px;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+div.iconen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+div.icoon {
+    width: 30px;
+    height: 30px;
+}
+
+p.size {
+    margin-top: -20px;
+    color: #797979;
+}
+
+
+
+
+
+.flexContainer {
+    display: flex;
+}
+.flexContainer.border {
+    border: 1px solid black;
+}
+.flexItem {
+    flex: 1;
+}
+.flexStart {
+    justify-content: flex-start;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+.blueBackground {
+}
+.nav {
+    list-style: none;
+    margin: 8px 0px;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1.5em;
+    color: black;
+}
+.nav-search {
+    width: 25px;
+    height: 25px;
+    margin-left: 200px;
+}
+a:hover {
+    color:#006a63;
+    font-weight: bold;
+}
+a.footer {
+    padding: 20px;
+}
+li p {
+    padding: 0 16px;
+    margin: 0px;
+    margin-top: -5px;
+    color: #797979;
+}
+.footer-logo {
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+li a.footer {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    color: black;
+}
+
+
+
+
+
+div.knoppen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+a.btn_white_round {
+    text-decoration: none;
+    border: #000000 solid 1px;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 8px 50px;
+    color: #000000;
+}
+a.btn_green {
+    text-decoration: none;
+    border: #000000 solid 1px;
+    border-width: 1px;
+    border-radius: 40px;
+    padding: 8px 50px;
+    color: #FFFFFF;
+    background-color: #00c034;
+}
+a.btn_white_corner {
+    text-decoration: none;
+    border: #000000 solid 1px;
+    border-width: 1px;
+    padding: 8px 50px;
+    color: #000000;
+}
+
+
+
+
+
+
+.arrow-steps .step {
+	font-size: 14px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: default;
+	margin: 0 3px;
+	padding: 10px 10px 10px 30px;
+	min-width: 180px;
+	float: left;
+	position: relative;
+	background-color: #d9e3f7;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #d9e3f7;	
+	z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+	border: none;
+}
+
+.arrow-steps .step:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+	position: relative;
+}
+
+.arrow-steps .step span:before {
+	opacity: 0;
+	content: "✔";
+	position: absolute;
+	top: -2px;
+	left: -20px;
+}
+
+.arrow-steps .step.done span:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease 0.5s;
+	-moz-transition: opacity 0.3s ease 0.5s;
+	-ms-transition: opacity 0.3s ease 0.5s;
+	transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+	color: #fff;
+	background-color: #56b7d2;
+}
+
+.arrow-steps .step.current:after {
+	border-left: 17px solid #56b7d2;	
+}
+.wrapper {
+	display: table-cell;
+	height: 100px;
+	vertical-align: middle;
+}
+.container {
+	font-family: 'Lato', sans-serif;
+	width: 1000px;
+    margin: 0 auto;
+    line-height: 16px;
+}
+
+
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+
+
+
+input.dropdown {
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 14px;
+    width: 20%;
+    display: block;
+    float: center;
+}  
+div.dropdown {
+    align-content: center;
+}
+
+
+
+
+.image {
+    background: url('../images/noisia.png');
+    background-size: cover;
+    width: 500px;
+    height: 260px;
+    position: relative;
+    border-radius: 30px;
+}
+.image2 {
+    background: url('../images/modestepAA.png');
+    background-size: cover;
+    width: 500px;
+    height: 260px;
+    position: relative;
+    border-radius: 30px;
+    margin: 20px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+    border-radius: 30px;
+  }
+  .image:hover > .overlay {
+    opacity: 0.5;
+  }
+  .image2:hover > .overlay {
+    opacity: 0.5;
+  }
+a.text:hover {
+    opacity: 1;
+    color: white;
+  }
+  .text {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+div.art-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
